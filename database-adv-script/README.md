@@ -1,6 +1,6 @@
 # Database Advanced Script
 
-This directory contains SQL queries and scripts demonstrating advanced database operations, including JOINs, subqueries, aggregations, window functions, and performance optimization through indexing.
+This directory contains SQL queries and scripts demonstrating advanced database operations, including JOINs, subqueries, aggregations, window functions, indexing, query optimization, table partitioning, and performance monitoring.
 
 ## Files
 
@@ -9,6 +9,11 @@ This directory contains SQL queries and scripts demonstrating advanced database 
 - `aggregations_and_window_functions.sql`: Contains SQL queries using aggregation functions and window functions.
 - `database_index.sql`: Contains CREATE INDEX statements for performance optimization.
 - `index_performance.md`: Documentation on index performance analysis and monitoring.
+- `performance.sql`: Contains initial and optimized complex queries for performance comparison.
+- `optimization_report.md`: Detailed analysis of query optimization techniques and improvements.
+- `partitioning.sql`: Contains table partitioning implementation for the bookings table.
+- `partition_performance.md`: Analysis of partitioning performance benefits and implementation.
+- `performance_monitoring.md`: Comprehensive guide to continuous performance monitoring and optimization.
 
 ## Queries
 
@@ -27,4 +32,7 @@ This directory contains SQL queries and scripts demonstrating advanced database 
 
 ### Performance Optimization
 - **Indexing**: Strategic indexes on high-usage columns to improve query performance.
-- **Performance Analysis**: Guidelines for measuring and monitoring query performance before and after indexing.
+- **Query Optimization**: Refactoring complex queries to reduce execution time and resource usage.
+- **Table Partitioning**: Range partitioning on bookings table by date for improved query performance on large datasets.
+- **Performance Monitoring**: Continuous monitoring using EXPLAIN ANALYZE and automated alerting.
+- **Schema Adjustments**: Computed columns, triggers, and materialized views for improved performance.
