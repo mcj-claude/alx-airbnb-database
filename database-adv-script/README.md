@@ -1,12 +1,14 @@
 # Database Advanced Script
 
-This directory contains SQL queries demonstrating advanced database operations, including JOINs, subqueries, aggregations, and window functions.
+This directory contains SQL queries and scripts demonstrating advanced database operations, including JOINs, subqueries, aggregations, window functions, and performance optimization through indexing.
 
 ## Files
 
 - `joins_queries.sql`: Contains SQL queries using INNER JOIN, LEFT JOIN, and FULL OUTER JOIN.
 - `subqueries.sql`: Contains SQL queries using non-correlated and correlated subqueries.
 - `aggregations_and_window_functions.sql`: Contains SQL queries using aggregation functions and window functions.
+- `database_index.sql`: Contains CREATE INDEX statements for performance optimization.
+- `index_performance.md`: Documentation on index performance analysis and monitoring.
 
 ## Queries
 
@@ -22,3 +24,7 @@ This directory contains SQL queries demonstrating advanced database operations, 
 ### Aggregations and Window Functions
 1. **Aggregation**: Find the total number of bookings made by each user using COUNT and GROUP BY.
 2. **Window Functions**: Rank properties based on the total number of bookings using ROW_NUMBER and RANK.
+
+### Performance Optimization
+- **Indexing**: Strategic indexes on high-usage columns to improve query performance.
+- **Performance Analysis**: Guidelines for measuring and monitoring query performance before and after indexing.
